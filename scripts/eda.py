@@ -44,6 +44,14 @@ class EDA:
             has_missing_values = True
         return has_missing_values
 
+    def view_missing_values(self):
+        result = 'self.df.isnull().sum()'
+        return result
+
+    def fix_missing_ffill(self, col):
+        self.df[col] = self.df[col].fillna(method='ffill')
+        return self.df
+
     def get_df(self):
         """
         - returns the dataframes
