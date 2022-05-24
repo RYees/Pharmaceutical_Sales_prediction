@@ -26,8 +26,8 @@ class EDA:
         summary = None
         if describe:
             summary = self.df.describe()
-        # elif info:
-            # summary = self.df.head(2)
+        elif info:
+            summary = self.df.info
         elif size:
             summary = self.df.shape
         return summary
