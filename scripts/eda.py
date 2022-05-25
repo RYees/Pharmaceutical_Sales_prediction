@@ -57,7 +57,11 @@ class EDA:
         - returns the dataframes
         """
         return self.df
-
+    def change_to_date_type(self, col_name: str) -> None:
+        try:
+            self.df[col_name] = pd.to_datetime(self.df[col_name])
+        except:
+            print('failed to change column to Date Type')
 
 if __name__ == '__main__':
     file_path = sys.argv[1]
