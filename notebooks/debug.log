@@ -4763,3 +4763,113 @@ Traceback (most recent call last):
   File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3623, in get_loc
     raise KeyError(key) from err
 KeyError: 'Day'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Day'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_manipulation.py", line 170, in add_month_timing
+    date_index = self.df.columns.get_loc(day_col)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Day'
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_manipulation.py", line 35, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_manipulation.py", line 35, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_manipulation.py", line 35, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_manipulation.py", line 35, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_manipulation.py", line 35, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_manipulation.py", line 116, in add_number_of_days_to_holiday
+    self.df.insert(date_index + 1, 'DaysToHoliday',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4438, in insert
+    value = self._sanitize_column(value)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4529, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\common.py", line 557, in require_length_match
+    raise ValueError(
+ValueError: Length of values (843578) does not match length of index (843579)
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_manipulation.py", line 116, in add_number_of_days_to_holiday
+    self.df.insert(date_index + 1, 'DaysToHoliday',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4438, in insert
+    value = self._sanitize_column(value)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4529, in _sanitize_column
+    com.require_length_match(value, self.index)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\common.py", line 557, in require_length_match
+    raise ValueError(
+ValueError: Length of values (41087) does not match length of index (41088)
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:root:Successfull data scaling
+INFO:root:Successfull data scaling
+INFO:root:Successfull data scaling
+INFO:root:Successfull data scaling
+INFO:root:Successfull data scaling
