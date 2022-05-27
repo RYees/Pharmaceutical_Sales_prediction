@@ -4873,3 +4873,6 @@ INFO:root:Successfull data scaling
 INFO:root:Successfull data scaling
 INFO:root:Successfull data scaling
 INFO:root:Successfull data scaling
+INFO:root:Successfull data scaling
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\USER, universal_newlines=False, shell=None, istream=<valid stream>)
