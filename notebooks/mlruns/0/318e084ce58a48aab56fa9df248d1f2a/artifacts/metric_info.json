@@ -1,0 +1,5 @@
+{
+  "RandomForestRegressor_score-2_x_valid": "RandomForestRegressor.score(X=x_valid, y=y_valid)",
+  "RandomForestRegressor_score-3_x_test": "RandomForestRegressor.score(X=x_test, y=y_test)",
+  "RandomForestRegressor_score_x_train": "RandomForestRegressor.score(X=x_train, y=y_train)"
+}
