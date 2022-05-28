@@ -46,3 +46,261 @@ INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
 INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
 INFO:Data Manipulatior:Successfully Added MonthTiming Column
 INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    modified_index = self.modify_holiday_list(
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    self.affect_list(new_index, 3, 1, index)
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    modified_index = self.modify_holiday_list(
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    self.affect_list(new_index, 3, 1, index)
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 59, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 59, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysAfterHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 123, in add_number_of_days_after_holiday
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysAfterHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 123, in add_number_of_days_after_holiday
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 159, in add_month_timing
+AttributeError: 'DataChange' object has no attribute 'return_day_status_in_month'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 159, in add_month_timing
+AttributeError: 'DataChange' object has no attribute 'return_day_status_in_month'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 159, in add_month_timing
+    i += 1
+AttributeError: 'DataChange' object has no attribute 'return_day_status_in_month'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 159, in add_month_timing
+    i += 1
+AttributeError: 'DataChange' object has no attribute 'return_day_status_in_month'
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 59, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 59, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 59, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 59, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 59, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add WeekDay Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 59, in add_week_day
+    self.df.insert(date_index + 1, 'WeekDay',
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\frame.py", line 4434, in insert
+    raise ValueError(f"cannot insert {column}, already exists")
+ValueError: cannot insert WeekDay, already exists
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysAfterHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 123, in add_number_of_days_after_holiday
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysAfterHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 123, in add_number_of_days_after_holiday
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 159, in add_month_timing
+    i += 1
+AttributeError: 'DataChange' object has no attribute 'return_day_status_in_month'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 159, in add_month_timing
+    i += 1
+AttributeError: 'DataChange' object has no attribute 'return_day_status_in_month'
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysToHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 87, in add_number_of_days_to_holiday
+    elif value == 'b':  # Easter
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysAfterHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 123, in add_number_of_days_after_holiday
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add DaysAfterHoliday Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 123, in add_number_of_days_after_holiday
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 72, in modify_holiday_list
+    change_list[index] = 'before'
+AttributeError: 'DataChange' object has no attribute 'affect_list'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 159, in add_month_timing
+    i += 1
+AttributeError: 'DataChange' object has no attribute 'return_day_status_in_month'
+ERROR:Data Manipulatior:Failed to Add MonthTiming Column
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\10academy\Week3\Pharmaceutical_Sales_prediction\scripts\data_change.py", line 159, in add_month_timing
+    i += 1
+AttributeError: 'DataChange' object has no attribute 'return_day_status_in_month'
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added WeekDay Column to the DataFrame
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysToHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added DaysAfterHoliday Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:Data Manipulatior:Successfully Added MonthTiming Column
+INFO:root:Successfull data scaling
+INFO:root:Successfull data scaling
